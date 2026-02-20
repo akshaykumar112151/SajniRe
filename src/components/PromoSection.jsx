@@ -1,7 +1,7 @@
 // src/components/PromoSection.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import DiamondRing from "../assets/DiamondRing.png";
+import diamondring from "../assets/diamondring.png";
 import RingWithBox from "../assets/RingWithBox.png";
 import RingsSet1 from "../assets/RingsSet1.png";
 import Chain from "../assets/Chain.png";
@@ -37,18 +37,31 @@ const PromoSection = () => {
           JEWELS AS UNIQUE AS YOU ARE
         </p>
 
-        <h2 className="
-          text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
-          font-semibold text-gray-800 leading-relaxed mt-4
-        ">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-800 leading-relaxed mt-4">
           ELEGANCE IS TIMELESS, AND SO IS OUR JEWELRY{" "}
-          <img src={DiamondRing} className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1" />
+          <img
+            src={diamondring}
+            alt="Diamond Ring"
+            className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
+          />
           DESIGNED WITH CARE. EACH PIECE{" "}
-          <img src={RingWithBox} className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1" />
+          <img
+            src={RingWithBox}
+            alt="Ring With Box"
+            className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
+          />
           REFLECTS YOUR UNIQUE STORY{" "}
-          <img src={RingsSet1} className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1" />
+          <img
+            src={RingsSet1}
+            alt="Rings Set"
+            className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
+          />
           MAKING EVERY MOMENT{" "}
-          <img src={Chain} className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1" />
+          <img
+            src={Chain}
+            alt="Chain"
+            className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
+          />
           UNFORGETTABLE AND EVERY LOOK ICONIC.
         </h2>
       </motion.div>
@@ -63,22 +76,30 @@ const PromoSection = () => {
       >
         <div className="bg-white rounded-lg py-6 shadow-sm hover:shadow-md transition">
           <FaTags className="text-3xl sm:text-4xl text-amber-600 mx-auto mb-2" />
-          <p className="font-medium text-gray-700 text-sm sm:text-base">Special Discounts</p>
+          <p className="font-medium text-gray-700 text-sm sm:text-base">
+            Special Discounts
+          </p>
         </div>
 
         <div className="bg-white rounded-lg py-6 shadow-sm hover:shadow-md transition">
           <FaGem className="text-3xl sm:text-4xl text-amber-600 mx-auto mb-2" />
-          <p className="font-medium text-gray-700 text-sm sm:text-base">Unique Designs</p>
+          <p className="font-medium text-gray-700 text-sm sm:text-base">
+            Unique Designs
+          </p>
         </div>
 
         <div className="bg-white rounded-lg py-6 shadow-sm hover:shadow-md transition">
           <FaTruck className="text-3xl sm:text-4xl text-amber-600 mx-auto mb-2" />
-          <p className="font-medium text-gray-700 text-sm sm:text-base">Fast Shipping</p>
+          <p className="font-medium text-gray-700 text-sm sm:text-base">
+            Fast Shipping
+          </p>
         </div>
 
         <div className="bg-white rounded-lg py-6 shadow-sm hover:shadow-md transition">
           <FaHandHoldingUsd className="text-3xl sm:text-4xl text-amber-600 mx-auto mb-2" />
-          <p className="font-medium text-gray-700 text-sm sm:text-base">Great Prices</p>
+          <p className="font-medium text-gray-700 text-sm sm:text-base">
+            Great Prices
+          </p>
         </div>
       </motion.div>
 
