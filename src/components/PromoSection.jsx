@@ -1,9 +1,9 @@
 // src/components/PromoSection.jsx
 import { motion } from "framer-motion";
 import diamondRing from "../assets/diamond-ring.png";
-import RingWithBox from "../assets/RingWithBox.png";
-import RingsSet1 from "../assets/RingsSet1.png";
-import Chain from "../assets/Chain.png";
+import ringWithBox from "../assets/ring-with-box.png";
+import ringsSet1 from "../assets/rings-set-1.png";
+import chain from "../assets/chain.png";
 import {
   FaTags,
   FaGem,
@@ -23,7 +23,6 @@ const fadeUp = {
 const PromoSection = () => {
   return (
     <section className="bg-amber-50 py-12 px-4 sm:px-8 md:px-16 font-marcellus">
-
       {/* HEADING */}
       <motion.div
         className="text-center max-w-6xl mx-auto mb-12"
@@ -45,19 +44,19 @@ const PromoSection = () => {
           />
           DESIGNED WITH CARE. EACH PIECE{" "}
           <img
-            src={RingWithBox}
+            src={ringWithBox}
             alt="Ring With Box"
             className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
           />
           REFLECTS YOUR UNIQUE STORY{" "}
           <img
-            src={RingsSet1}
+            src={ringsSet1}
             alt="Rings Set"
             className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
           />
           MAKING EVERY MOMENT{" "}
           <img
-            src={Chain}
+            src={chain}
             alt="Chain"
             className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mx-1"
           />
@@ -113,7 +112,6 @@ const PromoSection = () => {
         <p className="italic text-gray-700 text-lg">Piku Sahu</p>
         <p className="text-sm text-gray-500">Founder, Sajni Re</p>
       </motion.div>
-
     </section>
   );
 };
