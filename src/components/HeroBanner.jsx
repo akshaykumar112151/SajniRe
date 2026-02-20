@@ -1,7 +1,7 @@
 // src/components/HeroBanner.jsx
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import ModelImage from "../assets/model-main.JPG";
+import ModelImage from "../assets/model-main.jpg";
 import Thumb1 from "../assets/thumb1.jpg";
 import Thumb2 from "../assets/thumb2.jpg";
 import Thumb3 from "../assets/thumb3.jpg";
