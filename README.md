@@ -32,7 +32,7 @@ npm run dev
 This project was developed during my internship as a Frontend Developer, focusing on UI design, responsiveness, and real-world project structure.
 
 ## Live Demo
-(Live link will be added after deployment)
+https://sajni-re.netlify.app
 
 ## Folder Structure
 ```text
