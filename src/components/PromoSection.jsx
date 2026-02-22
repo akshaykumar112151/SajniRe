@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import diamondRing from "../assets/diamond-ring.png";
 import ringWithBox from "../assets/ring-with-box.png";
 import ringsSet1 from "../assets/rings-set-1.png";
-import chain from "../assets/chain.png";
+import chain from "../assets/light-chain.png";
 import {
   FaTags,
   FaGem,
