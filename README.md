@@ -5,16 +5,12 @@ Modern Jewellery Brand Website
 A modern and elegant jewellery brand website inspired by Indian craftsmanship and contemporary fashion.  
 Designed with a clean and user-friendly interface to showcase curated jewellery collections, brand story, heritage, and product presentation.
 
----
-
 ## Tech Stack
 - React.js  
 - Tailwind CSS  
 - JavaScript  
 - HTML5  
 - CSS3  
-
----
 
 ## Features
 - Elegant and modern jewellery brand design  
@@ -23,8 +19,6 @@ Designed with a clean and user-friendly interface to showcase curated jewellery 
 - Clean and user-friendly interface  
 - Smooth navigation and seamless user experience  
 - Well-structured sections for product and brand presentation  
-
----
 
 ## Getting Started
 To run this project locally:
@@ -41,6 +35,7 @@ This project was developed during my internship as a Frontend Developer, focusin
 (Live link will be added after deployment)
 
 ## Folder Structure
+```text
 SajniRe/
 │── public/
 │── src/
@@ -52,6 +47,6 @@ SajniRe/
 │── tailwind.config.js
 │── vite.config.js
 │── README.md
-
+```
 ## Project Duration
 July 2025 – September 2025
